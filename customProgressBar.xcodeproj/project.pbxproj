@@ -21,6 +21,8 @@
 		8598BFE2197FEEF100D79584 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8598BFC4197FEEF000D79584 /* UIKit.framework */; };
 		8598BFEA197FEEF100D79584 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8598BFE8197FEEF100D79584 /* InfoPlist.strings */; };
 		8598BFEC197FEEF100D79584 /* customProgressBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8598BFEB197FEEF100D79584 /* customProgressBarTests.m */; };
+		8598BFF7197FEF1C00D79584 /* CustomProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8598BFF6197FEF1C00D79584 /* CustomProgressBarView.m */; };
+		8598BFF9197FEFD200D79584 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8598BFF8197FEFD200D79584 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		8598BFE7197FEEF100D79584 /* customProgressBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "customProgressBarTests-Info.plist"; sourceTree = "<group>"; };
 		8598BFE9197FEEF100D79584 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8598BFEB197FEEF100D79584 /* customProgressBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customProgressBarTests.m; sourceTree = "<group>"; };
+		8598BFF5197FEF1C00D79584 /* CustomProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomProgressBarView.h; sourceTree = "<group>"; };
+		8598BFF6197FEF1C00D79584 /* CustomProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomProgressBarView.m; sourceTree = "<group>"; };
+		8598BFF8197FEFD200D79584 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8598BFF9197FEFD200D79584 /* QuartzCore.framework in Frameworks */,
 				8598BFC3197FEEF000D79584 /* CoreGraphics.framework in Frameworks */,
 				8598BFC5197FEEF000D79584 /* UIKit.framework in Frameworks */,
 				8598BFC1197FEEF000D79584 /* Foundation.framework in Frameworks */,
@@ -82,6 +88,8 @@
 		8598BFB4197FEEF000D79584 = {
 			isa = PBXGroup;
 			children = (
+				8598BFF5197FEF1C00D79584 /* CustomProgressBarView.h */,
+				8598BFF6197FEF1C00D79584 /* CustomProgressBarView.m */,
 				8598BFC6197FEEF000D79584 /* customProgressBar */,
 				8598BFE5197FEEF100D79584 /* customProgressBarTests */,
 				8598BFBF197FEEF000D79584 /* Frameworks */,
@@ -101,6 +109,7 @@
 		8598BFBF197FEEF000D79584 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8598BFF8197FEFD200D79584 /* QuartzCore.framework */,
 				8598BFC0197FEEF000D79584 /* Foundation.framework */,
 				8598BFC2197FEEF000D79584 /* CoreGraphics.framework */,
 				8598BFC4197FEEF000D79584 /* UIKit.framework */,
@@ -251,6 +260,7 @@
 			files = (
 				8598BFD7197FEEF100D79584 /* ViewController.m in Sources */,
 				8598BFD1197FEEF000D79584 /* AppDelegate.m in Sources */,
+				8598BFF7197FEF1C00D79584 /* CustomProgressBarView.m in Sources */,
 				8598BFCD197FEEF000D79584 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
